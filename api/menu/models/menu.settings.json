@@ -13,7 +13,9 @@
       "type": "string"
     },
     "sub_menus": {
-      "collection": "sub-menu"
+      "collection": "sub-menu",
+      "via": "menus",
+      "dominant": true
     }
   }
 }
