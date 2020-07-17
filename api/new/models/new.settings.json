@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "sub_menus",
+  "collectionName": "news",
   "info": {
-    "name": "subMenu"
+    "name": "new"
   },
   "options": {
     "increments": true,
@@ -12,8 +12,8 @@
     "name": {
       "type": "string"
     },
-    "page": {
-      "model": "page"
+    "content": {
+      "type": "richtext"
     }
   }
 }

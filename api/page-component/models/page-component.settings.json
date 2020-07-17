@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "pages",
+  "collectionName": "page_components",
   "info": {
-    "name": "page"
+    "name": "page component"
   },
   "options": {
     "increments": true,
@@ -25,9 +25,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "page_components": {
-      "collection": "page-component"
     }
   }
 }
